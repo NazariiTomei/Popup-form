@@ -13,7 +13,7 @@ const PlanCard = ({
   return (
     <div
       onClick={() => handleClick(id)}
-      className="relative bg-white shadow-lg rounded-lg text-left overflow-hidden min-h-[400px] min-w-[150px] flex flex-col"
+      className="relative bg-white shadow-lg rounded-lg text-left overflow-hidden h-[400px]  min-w-[150px] flex flex-col"
     >
       <div className="flex-1 flex flex-col">
         <div
